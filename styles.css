@@ -162,4 +162,36 @@ header .menu button{
     margin-top:1rem;
 }
 
+/*SECTION 4*/
+
+.background4{
+    background:linear-gradient(180deg, #14202C 0%, rgba(20, 32, 44, 0.6) 27.92%, rgba(20, 32, 44, 0.6) 75.31%, #14202C 100%), url("img/football-606235_1280.jpg") no-repeat center center;
+    background-size:cover
+}
+
+.section4{
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    width:70%;
+    align-items: center;
+}
+
+.section4 div{
+    text-align: right;
+    line-height: 1.5rem;
+}
+
+.section4 div h2{
+    color:#f9ae17;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+.section4 div p{
+    color:white;
+    font-weight:700;
+    margin-top:1rem;
+}
+
 
