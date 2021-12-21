@@ -114,6 +114,7 @@ header .menu button{
     margin:auto;
     display:flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 .section2 img{
@@ -122,7 +123,6 @@ header .menu button{
 }
 
 .section2 div{
-    margin-top:19rem;
     text-align: right;
     line-height: 1.5rem;
 }
@@ -235,22 +235,31 @@ footer .container div a{
 
 /*RESPONSIVE*/ 
 
-@media (max-width: 1024px){
-        .section1{
-            width:99%;
-        }
+@media (max-width: 1300px){
+    .section1{
+        width:99%;
+    }
 
-        .section2{
-            width:99%;
-        }
+    .section1 img{
+        max-width:28rem;
+        height:fit-content;
+    }
 
-        .section3{
-            width:99%;
-        }
+    .section1 {
+        width:99%;
+    }
 
-        .section4{
-            width:99%;
-        }
+    .section2{
+        width:99%;
+    }
+
+    .section3{
+        width:99%;
+    }
+
+    .section4{
+        width:99%;
+    }
 }
 
 @media (max-width: 768px){
