@@ -129,4 +129,37 @@ header .menu button{
     margin-top: 1rem;
 }
 
+/*SECTION 3*/
+
+.background3{
+    background:linear-gradient(rgba(202, 212, 223, 0.9), rgba(202, 212, 223, 0.9)), url("img/fancy-crave-qowyMze7jqg-unsplash.jpg") no-repeat center center;
+    background-size:cover
+}
+
+.section3{
+    margin: auto;
+    width:70%;
+    display: flex;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+.section3 img{
+    max-width: 32rem;
+    margin-top: -8rem;
+    margin-bottom: -10rem;
+}
+
+.section3 h2{
+    color:#f9ae17;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+.section3 p{
+    color:#41546C;
+    font-weight:700;
+    margin-top:1rem;
+}
+
 
