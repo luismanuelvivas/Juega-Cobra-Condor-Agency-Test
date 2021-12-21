@@ -185,7 +185,7 @@ header .menu button{
 .section4 div h2{
     color:#f9ae17;
     font-size: 1.875rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .section4 div p{
@@ -193,5 +193,29 @@ header .menu button{
     font-weight:700;
     margin-top:1rem;
 }
+
+/* FOOTER */
+footer{
+    background: rgba(10,10,10,1) 0% 0% no-repeat;
+}
+
+footer .container{
+    width:85%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size:14px;
+}
+
+footer .container p, footer .container div{
+    margin:16px 0 14px;
+}
+
+footer .container div a{
+    margin-left:1rem;
+    cursor: pointer;
+}
+
 
 
