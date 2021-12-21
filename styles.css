@@ -95,3 +95,38 @@ header .menu button{
     object-fit: contain;
     padding-right: 1rem;
 }
+
+/*SECTION 2*/
+
+.background2{
+    background:linear-gradient(180deg, #14202C 0%, rgba(20, 32, 44, 0.6) 27.92%, rgba(20, 32, 44, 0.6) 75.31%, #14202C 100%), url("img/pexels-zac-frith-918798.jpg") no-repeat center center;
+    background-size:cover
+}
+
+.section2{
+    width:70%;
+    margin:auto;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.section2 div{
+    margin-top:19rem;
+    text-align: right;
+    line-height: 1.5rem;
+}
+
+.section2 div h2{
+    color:#f9ae17;
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+
+.section2 div p{
+    color:white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+
