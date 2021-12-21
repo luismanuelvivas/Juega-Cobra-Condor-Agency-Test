@@ -96,7 +96,7 @@ header .menu button{
 
 .store-buttons img{
     cursor: pointer;
-    width: 10rem;
+    max-width: 10rem;
     height: auto;
     object-fit: contain;
     padding-right: 1rem;
@@ -234,6 +234,24 @@ footer .container div a{
 }
 
 /*RESPONSIVE*/ 
+
+@media (max-width: 1024px){
+        .section1{
+            width:99%;
+        }
+
+        .section2{
+            width:99%;
+        }
+
+        .section3{
+            width:99%;
+        }
+
+        .section4{
+            width:99%;
+        }
+}
 
 @media (max-width: 768px){
 
