@@ -235,6 +235,124 @@ footer .container div a{
 
 /*RESPONSIVE*/ 
 
+@media (max-width: 768px){
+
+
+        /* HEADER */
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header .menu{
+            margin-top: .5rem;
+        }
+
+
+        /* SECTION 1 */
+        .section1{
+            width:99%;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section1 h2{
+            margin-top:1rem;
+        }
+
+        .section1 p{
+            width:85%;
+            margin:1rem auto;
+        }
+
+
+        /* SECTION 2 */
+        .section2{
+            width:99%;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section2 div{
+            margin-top:2rem;
+            width:90%;
+        }
+
+        .section2 h2, .section2 p{
+            margin-top:1rem;
+            text-align:center;
+        }
+
+        .section2 img{
+            margin-bottom:-10rem;
+        }
+
+        /* SECTION 3 */
+        .section3{
+            width:99%;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section3 img{
+            max-width: 95%;
+            object-fit: contain;
+            margin-top: 1rem;
+            margin-bottom: -12rem;
+        }
+
+        .section3 div{
+            width:85%;
+            margin-top:10rem;
+        }
+
+        /* SECTION 4  */
+        .section4{
+            width:99%;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section4 div{
+            width: 80%;
+        }
+        
+        .section4 h2, .section4 p{
+            margin-top:10rem;
+            text-align:center;
+        }
+
+        /*FOOTER*/
+
+        footer .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        footer .container p{
+            margin:10px 0 6px;
+        }
+        
+        footer .container div{
+            margin-bottom:10px;
+        }
+}
 
 
 
